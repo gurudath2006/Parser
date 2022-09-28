@@ -22,4 +22,7 @@ Below is the sample UI design page with the steps to access the page.
 
 * Step 1
 
+![image](https://user-images.githubusercontent.com/61128349/192678639-17365ce9-9690-4453-ac71-b303fbba55ef.png)
+
 * Step 2
+![image](https://user-images.githubusercontent.com/61128349/192678796-5731a5e6-b5bb-4853-a257-fe06ef6e3a31.png)
