@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <form>
+        <div class="container">
+            <div class="row">
+                <div class="form-group col-9">
+                    <input type="text" class="form-control" id="inputUrl" placeholder="Enter web page URL..">
+                    <span id="input-warning" class="parser-warning parser-field_hidden">Please enter a valid URL, example https://unsplash.com</span>
+                </div>
+                <div class="form-group col-1">
+                    <button type="button" id="btn__load-url" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="container parser-results parser-field_hidden" id="results">
+
+        <div class="row parser-pad">
+            <p> Total word count is </p> <span id="total_word_count" class="parser-span_total_word"></span>
+        </div>
+        <div class="row parser-pad" >
+            <div class="col-9" id="carousel_container">
+            </div>
+            <div class="col-3 parser-pad" id="chart" >
+            </div>
+        </div>
+    </div>
+    <input id="api_end_point" type="hidden" value="@ViewData["WebAPIEndPoint"]" />
+</div>
+
+@section Scripts {
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="~/js/site.js"></script>
+   
+}
