@@ -26,3 +26,13 @@ Below is the sample UI design page with the steps to access the page.
 
 * Step 2
 ![image](https://user-images.githubusercontent.com/61128349/192678796-5731a5e6-b5bb-4853-a257-fe06ef6e3a31.png)
+
+# Project Download and Run
+
+Download the entire project from the repository and perform the following steps:
+
+* Ensure the ports 7007 and 7048 are available as they are the default ports for the web app ad the web api to listen
+* Navigate to the following two folder using file explorer and run the command "dotnet run"
+  * [Download Folder]\Parser\Parser.API
+  * [Download Folder]\Parser\Parser.Web
+* Navigate to the following URL using the browser and launch the web application using the URL "https://localhost:7007/"
